@@ -1,0 +1,41 @@
+.calculator {
+  display: flex;
+  padding: 1em;
+  flex-direction: column;
+  max-width: 550px;
+  min-height: 800px;
+  background: darkgray; 
+}
+
+.display {
+  flex: 1;
+  text-align: end;
+  font-size: large;
+  background: lightseagreen;
+}
+
+.shortcuts {
+  display: flex;
+  flex: 1;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.shortcuts > div {
+  display: flex;
+}
+
+.numpad {
+  display: flex;
+  flex-direction: column;
+  flex: 4;
+}
+
+.numpad > div {
+  flex: 1;
+  display: flex;
+}
+
+.numpad > div > button {
+  flex: 1;
+}
